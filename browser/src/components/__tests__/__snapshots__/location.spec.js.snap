@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should add the required props 1`] = `
+Object {
+  "location": Object {
+    "hash": "",
+    "key": undefined,
+    "pathname": "/test",
+    "query": Object {
+      "page": 3,
+    },
+    "search": "?page=3",
+  },
+  "match": Object {
+    "isExact": false,
+    "params": Object {},
+    "path": "/",
+    "url": "/",
+  },
+  "push": [Function],
+  "replace": [Function],
+  "staticContext": undefined,
+}
+`;

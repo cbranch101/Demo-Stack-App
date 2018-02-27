@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should allow for an array of responses to be supplied and return a listener 1`] = `
+Object {
+  "name": "John",
+}
+`;
+
+exports[`Should allow for an array of responses to be supplied and return a listener 2`] = `
+Object {
+  "name": "Tom",
+}
+`;
+
+exports[`Should correctly handle mocked requests to the same url 1`] = `
+Object {
+  "name": "John",
+}
+`;
+
+exports[`Should correctly handle mocked requests to the same url 2`] = `
+Object {
+  "name": "George",
+}
+`;
+
+exports[`Should correctly handle mocked requests to the same url 3`] = `
+Object {
+  "name": "Tom",
+}
+`;
+
+exports[`Should correctly mock array response 1`] = `
+Object {
+  "name": "John",
+}
+`;
+
+exports[`Should correctly mock array response 2`] = `
+Object {
+  "name": "Tom",
+}
+`;
+
+exports[`Should handle a function responses correctly 1`] = `
+Object {
+  "name": "/users",
+}
+`;
+
+exports[`Should handle a single response correctly 1`] = `
+Object {
+  "name": "John",
+}
+`;
